@@ -20,6 +20,8 @@ Click the image with the name "xxxx-app1"
 Go to "Exec" tab and run the following command (All artisan command must run at here)
 <br><br>
 php artisan key:generate<br>
+
+php artisan optimize <br>
 php artisan migrate --seed <br>
 php artisan optimize
 
