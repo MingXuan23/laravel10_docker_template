@@ -10,7 +10,9 @@ docker run --rm -v ${pwd}:/app composer install
 <br>
 docker-compose up
 <br>
-[Ctrl + C to after finish]
+docker-compose up
+<br>
+Remember to copy example.env to .env
 <br>
 <b>You may need to change the database configuration in the docker-compose.yaml and .env<b>
 
@@ -19,7 +21,7 @@ Click the image with the name "xxxx-app1"
 <br>
 Go to "Exec" tab and run the following command (All artisan command must run at here)
 <br><br>
-
+php artisan key:generate<br>
 php artisan migrate --seed <br>
 php artisan optimize
 
