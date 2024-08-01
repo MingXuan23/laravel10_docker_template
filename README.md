@@ -10,8 +10,6 @@ docker run --rm -v ${pwd}:/app composer install
 <br>
 docker-compose up
 <br>
-docker-compose up
-<br>
 Remember to copy example.env to .env
 <br>
 <b>You may need to change the database configuration in the docker-compose.yaml and .env<b>
